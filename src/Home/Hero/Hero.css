@@ -1,0 +1,102 @@
+.banner{
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    
+    font-size: 1px;
+
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 90px);
+    box-sizing: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url("https://www.xtrafondos.com/wallpapers/resized/cachorro-y-gatito-7792.jpg?s=large");
+    animation: banner 20s infinite linear ;
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  
+}
+
+.banner-content{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    background-color: rgba(212, 128, 128, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+.banner-content h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px ;
+    font-size: 40px ;
+    text-align: center;
+}
+
+.banner-content p{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 20px ;
+}
+
+.banner-content a{
+    text-decoration: none;
+    color: black;
+    padding: 9px 20px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out ;
+}
+
+.banner-content a:hover{
+        background-color: #fff;
+}
+
+@keyframes banner{
+    0%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/cachorro-y-gatito-7792.jpg?s=large");
+    }
+    25%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/cachorro-y-gatito-7792.jpg?s=large");
+    }
+
+    26%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/gato-artwork-4879.jpg?s=large");
+    }
+    50%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/gato-artwork-4879.jpg?s=large");
+    }
+
+    51%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/chica-y-gato-durmiendo-en-la-tarde-lofi-art-6341.jpg?s=large");
+    }
+    75%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/chica-y-gato-durmiendo-en-la-tarde-lofi-art-6341.jpg?s=large");
+    }
+
+    76%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/nubes-en-forma-de-gato-8085.jpg?s=large");
+    }
+    100%{
+        background-image: url("https://www.xtrafondos.com/wallpapers/resized/nubes-en-forma-de-gato-8085.jpg?s=large");
+    }
+}

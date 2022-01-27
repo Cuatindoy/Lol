@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-footer{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px; 
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 300px;
+    
+    color: rgb(2, 2, 2);  
+}
+
+.container-footer-all{
+    width: 100%;
+    margin: auto;
+    padding: 24px;
+    background: rgba(212, 128, 128, 0.5);
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.colum1{
+    max-width:400px ;
+}
+
+.colum1 h1{
+    font-size: 22px;
+
+}
+
+.colum1 p{
+    font-size: 15px;
+    color: black;
+    margin-top: 25px;
+
+}
+
+.colum2 {
+     
+    max-width: 400px ;
+}
+
+.colum2 h1{
+    font-size: 22px;
+    
+}
+
+.row{
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+.Face{
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+    display: flex;
+    color: #E74C3C;
+}
+
+.row label{
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.colum3{
+    max-width: 400px ;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container-footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: rgba(255, 128, 128, 0.63);
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+@media screen and (max-width:1100px) {
+
+    .container-body{
+        flex-wrap: wrap;
+    }
+
+    .colum1{
+        max-width: 100%;
+    }
+
+    .colum2,
+    .colum3{
+        margin-top: 45px ;
+        
+    }
+    .row2 label{
+        font-size: 15px;
+    }
+}
+

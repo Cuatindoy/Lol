@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cuatindoy/sobre/static/css/main.54a2af53.css",
+    "main.js": "/Cuatindoy/sobre/static/js/main.a96a97ca.js",
+    "static/js/787.701cffd4.chunk.js": "/Cuatindoy/sobre/static/js/787.701cffd4.chunk.js",
+    "static/media/Logo.png": "/Cuatindoy/sobre/static/media/Logo.a0d0f655cece467aa47d.png",
+    "index.html": "/Cuatindoy/sobre/index.html",
+    "main.54a2af53.css.map": "/Cuatindoy/sobre/static/css/main.54a2af53.css.map",
+    "main.a96a97ca.js.map": "/Cuatindoy/sobre/static/js/main.a96a97ca.js.map",
+    "787.701cffd4.chunk.js.map": "/Cuatindoy/sobre/static/js/787.701cffd4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54a2af53.css",
+    "static/js/main.a96a97ca.js"
+  ]
+}
